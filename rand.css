@@ -1,0 +1,67 @@
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.card {
+    border-radius: 0.25rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 0.25em;
+}
+
+.card-shadow {
+    box-shadow: 3px 6px 18px rgba(0,0,0,0.2);
+}
+.card-image {
+    width: 240px;
+    height: auto;
+}
+.product-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.overlay-container {
+    position: relative;
+}
+.text-overlay {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    background: var(dark);
+    color: lightcoral;
+    margin-bottom: 0.25em;
+    padding: 0.25em;
+}
+
+.list-item-inline {
+    display: inline-flex;
+    padding: 0rem 0.5rem;
+    justify-content: center;
+}
+
+
+.list-non-bullet{
+    list-style: none;
+
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+ul.social-links.list-non-bullet {
+    text-align: center;
+}
